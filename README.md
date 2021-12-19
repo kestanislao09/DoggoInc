@@ -1,2 +1,2 @@
 # DoggoInc
-Landing Page for The Odin Project
+Landing Page project for The Odin Project
