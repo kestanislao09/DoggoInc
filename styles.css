@@ -33,7 +33,7 @@ h2 {
     font-weight: bolder;
     text-align: center;
     margin: 0;
-    padding: 48px;
+    margin-bottom: 16px;
 }
 
 h3 {
@@ -74,12 +74,15 @@ button {
     padding: 100px 240px;
 }
 
+.sammie {
+    padding: 100px 240px;
+}
+
 .container {
     display: flex;
     flex: wrap;
     justify-content: center;
     gap: 64px;
-    margin: 0px 240px;
 }
 
 .infotext {
@@ -126,8 +129,10 @@ button {
 }
 
 .footer {
+    color: #e5e7eb;
+    font-size: 16px;
     text-align: center;
-    padding: 45px 0px
+    padding: 24px 0px
 }
 
 .hero .subtext,
