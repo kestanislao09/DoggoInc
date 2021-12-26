@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, verdana, sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -18,9 +20,153 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+}
+
+h3 {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    border-style: none;
+    font-family: Roboto, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px 240px;
+    align-items: center;
+    padding: 16px 240px;
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 100px 240px;
+}
+
+.container {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    gap: 64px;
+    margin: 0px 240px;
+}
+
+.infotext {
+    font-size: 18px;
+    color: grey;
+    max-width: 160px;
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #e5e7eb;
+    padding: 100px 360px;
+    padding-bottom: 130px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    height: 80px;
+    width: auto;
+    padding: 40px 120px;
+    margin: 120px 240px;
+}
+
+.footer {
+    text-align: center;
+    padding: 45px 0px
+}
+
+.hero .subtext,
+.box .subtext {
+    margin: 4px 0px;
+}
+
+.hero img {
+    height: 240px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.pic img {
+    height: 160px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-radius: 16px;
+}
+
+.flip img{
+    transform: scaleX(-1);
+}
+
+.box button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+}
